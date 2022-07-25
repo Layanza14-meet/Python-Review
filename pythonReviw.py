@@ -6,9 +6,9 @@ def create_youtube_video (title,description):
 
 
 
-	 video={"title":title,"description":description,"likes":0, "dislikes":0,"comments":{}}
+	video={"title":title,"description":description,"likes":0, "dislikes":0,"comments":{}}
 
-	 return video
+	return video
 
 
 def like (video):
@@ -22,12 +22,12 @@ def like (video):
 		return video
 
 
-def add_comment(youtubevideo,username,comment_text)
+def add_comment(youtubevideo,username,comment_text):
 
      youtubevideo["comments"][username]=comment_text
 
 
-     return comments
+     return youtubevideo
 
 
 
@@ -60,10 +60,10 @@ print(newvid)
 
 
 
-    
+	    
 
 
 
 
 
-	
+		
